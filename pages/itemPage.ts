@@ -27,7 +27,6 @@ export class ItemPage extends BasePage{
         help.waitForCustomSeconds(0.5)
         const cost = help.convertCostToInt((await this.itemCost.textContent())!)
     }
-
     
     async addItemToCartFromItemPage(){
         const help = new Helper(this.page)

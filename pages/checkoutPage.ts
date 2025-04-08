@@ -9,7 +9,7 @@ export class CheckOutPage extends Helper{
     readonly continueButton:Locator
     readonly errorMessage:Locator
     constructor(page: Page){
-        super(page)
+        super(page) 
         this.page = page;
         this.firstName = page.getByPlaceholder("First Name")
         this.lastName = page.getByPlaceholder("Last Name")

@@ -9,13 +9,13 @@ const bikeLight = 'Sauce Labs Bike Light'
 const usernames = {standard: "standard_user",empty:"", lockedOut: "locked_out_user",nonExisting: "not_existing_user"}
 const passwords = {valid: "secret_sauce", empty: "",invalid: "invalid_data_passed"}
 
-//test for empty username
+//test for empty username 
 test("Verify test for logging in with empty username", async ({ page }) => {
     await page.goto("/")
     const login_page = new LoginPage(page)
     await login_page.successLogin(usernames.empty, passwords.valid)
     expect(await login_page.errorMessage.textContent()).toBe("Epic sadface: Username is required")
-  })
+  }) 
   //test for empty password
   test("Verify test for logging in with empty password", async ({ page }) => {
     await page.goto("/")

@@ -3,7 +3,7 @@ import { BasePage } from "./basePage";
 import { Helper } from "../utils/helper";
 import { CheckOutPage } from "./checkoutPage";
 
-export class CartPage extends Helper{
+export class CartPage extends Helper{ 
     readonly page: Page
     readonly cartItemCost:Locator
     readonly cartItemName:Locator

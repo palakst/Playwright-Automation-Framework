@@ -13,7 +13,7 @@ export class CheckOutFinalPage extends Helper{
         this.finishButton = page.getByText("FINISH")
         this.itemName = page.locator(".inventory_item_name")
         }
-
+ 
 
  
     async finishTransaction():Promise<OrderCompletePage>{
