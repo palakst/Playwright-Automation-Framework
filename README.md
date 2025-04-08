@@ -1,4 +1,4 @@
-[![Click to watch the full demo](assets/test_results.png)](assets/test_run_recording.mp4)
+[![Click to watch the full demo](assets/test_run_for_few_cases.gif)](assets/assets/test_run_recording.mp4)
 
 **Playwright + TypeScript E2E Automation Framework**
 This is a modern, scalable end-to-end test automation framework designed using TypeScript and Playwright for automating the UI testing of an e-commerce web application.
