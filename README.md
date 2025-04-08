@@ -1,3 +1,9 @@
+<video width="600">
+  <source src="assets/test_run_recording.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
 **Playwright + TypeScript E2E Automation Framework**
 This is a modern, scalable end-to-end test automation framework designed using TypeScript and Playwright for automating the UI testing of an e-commerce web application.
 
@@ -29,8 +35,4 @@ This is a modern, scalable end-to-end test automation framework designed using T
     Readable assertions and concise test steps
     Minimal duplication with centralized configuration and data
 
-<video width="600" controls>
-  <source src="assets/test_run_recording.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
