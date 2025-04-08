@@ -6,7 +6,7 @@ import { BasePage } from './pages/basePage'
 
 export type TestOptions ={
     home_page : HomePage
-    base_page : BasePage
+    base_page : BasePage   
 }
 
 const valid_username = "standard_user"

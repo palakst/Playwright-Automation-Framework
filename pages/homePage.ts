@@ -117,7 +117,7 @@ export class HomePage extends BasePage{
             const removebtttn = productCard.locator('button', { hasText: 'Remove' });
 
             if (await removebtttn.isVisible()) {
-                await removebtttn.click()
+                 await removebtttn.click()
             }
             else{
                 console.log(`ITEM NOT PRESENT ${name}`)

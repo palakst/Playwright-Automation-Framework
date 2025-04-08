@@ -53,7 +53,7 @@ export default defineConfig({
       // testMatch:'new.spec.ts',
       use:{
         ...devices['iPhone 12']
-      }
+      }    
     }
 
     /* Test against mobile viewports. */

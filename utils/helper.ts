@@ -15,7 +15,7 @@ export class Helper{
         let costString = dollarCost.replace("$","")
         let numberValue: number = +costString;
         return numberValue
-    }
+    } 
 
     async captureImage(){
         let file_name = Date.now()

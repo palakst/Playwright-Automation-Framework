@@ -19,7 +19,6 @@ export class LoginPage extends Helper{
     }
 
     async successLogin(username:string,password:string) : Promise<HomePage>{
-
         await this.enterUsernamePassword(username,password)
         return new HomePage(this.page)
     }

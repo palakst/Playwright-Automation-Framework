@@ -11,7 +11,6 @@ export class OrderCompletePage extends Helper{
         this.page = page;
         this.orderSuccessMessage = page.locator(".complete-header")
         this.backHomeButton = page.getByText("Back Home")
-
         }
 
     async getHeaderText():Promise<any>{

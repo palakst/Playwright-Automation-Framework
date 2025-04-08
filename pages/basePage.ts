@@ -29,5 +29,5 @@ export class BasePage extends Helper{
         // const { Cart_Page } = await import('./cart_page');
 
         return new CartPage(this.page);
-    }
+    } 
 }
