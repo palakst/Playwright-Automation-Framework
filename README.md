@@ -1,8 +1,4 @@
-<video width="600">
-  <source src="assets/test_run_recording.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
+[![Click to watch the full demo](assets/test_results.png)](assets/assets/test_run_recording.mp4)
 
 **Playwright + TypeScript E2E Automation Framework**
 This is a modern, scalable end-to-end test automation framework designed using TypeScript and Playwright for automating the UI testing of an e-commerce web application.
