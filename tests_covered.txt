@@ -1,0 +1,19 @@
+Test for adding an item to your cart
+Test for adding multiple items to your cart
+Test for removing items to your cart
+Test for verifying item added from home page is shown on item page
+Test for verifying item added from item page
+Test for verifying removing added from item page
+Verify user is able to set the sorting as ascending order for names
+Verify user is able to set the sorting as descending order for names
+Verify user is able to set the sorting as ascending order for cost
+Verify user is able to set the sorting as descending order for cost
+Verify user can view the added items on the cart page
+Verify user can view move to checkout page
+Verify user can view move to checkout page and enter user details
+Verify user can add item to cart and finish the transaction
+Verify user should not be able to checkout without adding any item to their cart
+Verify checkout behavior based on whether items are added
+Verify error message for empty first name
+Verify error message for empty last name
+Verify error message for empty postcode
