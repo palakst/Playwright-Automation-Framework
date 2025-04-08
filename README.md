@@ -28,3 +28,9 @@ This is a modern, scalable end-to-end test automation framework designed using T
     Reusable page methods and test data
     Readable assertions and concise test steps
     Minimal duplication with centralized configuration and data
+
+<video width="600" controls>
+  <source src="assets/test_run_recording.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
